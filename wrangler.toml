@@ -1,0 +1,8 @@
+name = "my0proxy"
+main = "src/worker.ts"
+compatibility_date = "2024-05-29"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "settings", id = "d72f72bcdffd4dc0b23261b99c59f2d8" }
+]
